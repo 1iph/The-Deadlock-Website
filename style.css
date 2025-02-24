@@ -9,7 +9,7 @@ body {
     background: url("lofi-8306352_640.jpg") no-repeat center center/cover;
     background-attachment: fixed;
     color: white;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden; 
 }
 
 .navbar {
@@ -20,10 +20,10 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent navbar */
+    background: rgba(0, 0, 0, 0.6); 
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: top 0.3s ease; /* Smooth transition for top on scroll */
+    transition: top 0.3s ease; 
 }
 
 .navbar .logo {
@@ -67,7 +67,7 @@ body {
     height: 100vh;
     text-align: center;
     padding: 20px;
-    padding-top: 80px; /* Account for navbar */
+    padding-top: 80px; 
 }
 
 .hero h1 {
@@ -92,15 +92,15 @@ body {
     margin: 100px auto;
     text-align: center;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent card background */
+    background-color: rgba(0, 0, 0, 0.6); 
     border-radius: 12px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about:hover, .contact:hover, .partnership:hover {
-    transform: translateY(-10px); /* Subtle lift effect on hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
 }
 
 .about h1, .contact h1, .partnership h1 {
@@ -141,13 +141,12 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Media Query for Tablets and Mobile Devices */
 @media (max-width: 1024px) {
-    /* Make the navbar items stack vertically on smaller screens */
+   
     .navbar {
         flex-direction: column;
         padding: 15px 25px;
-        position: static; /* Remove fixed position */
+        position: static; 
         background: rgba(0, 0, 0, 0.7);
     }
 
@@ -190,7 +189,7 @@ button:hover {
     }
 }
 
-/* Adjustments for mobile devices (portrait mode) */
+
 @media (max-width: 768px) {
     .navbar {
         padding: 10px 20px;
@@ -225,7 +224,7 @@ button:hover {
     }
 }
 
-/* Adjustments for mobile devices (landscape mode) */
+
 @media (max-width: 480px) {
     .navbar .logo {
         font-size: 1.6rem;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Deadlock</title>
+</head>
+<body>
+    
+    <header class="navbar">
+        <a href="#" class="logo">TDL</a>
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="menu-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="partnerships.html">Partnerships</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="hero">
+            <h1>The Deadlock</h1>
+            <p>A perfect guild for casual bedwars/duels players!</p>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menuLinks = document.querySelector(".menu-links");
+
+            menuToggle.addEventListener("click", function () {
+                menuLinks.classList.toggle("active");
+            });
+        });
+    </script>
+
+</body>
+</html>

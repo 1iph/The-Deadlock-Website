@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Partnerships - The Deadlock</title>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#" class="logo">TDL</a>
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="menu-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="partnerships.html">Partnerships</a>
+        </nav>
+    </header>
+    
+    <main class="content partnerships">
+        <section class="partnership">
+            <h1>Partnerships</h1>
+            <p>We’re always looking for new partnerships to grow and expand our community. If you’re interested in collaborating with The Deadlock, reach out to us via our <a href="contact.html" class="contact-link">Contact Us</a> page, or join our Discord server for more details.</p>
+        </section>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menuLinks = document.querySelector(".menu-links");
+
+            menuToggle.addEventListener("click", function () {
+                menuLinks.classList.toggle("active");
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="style.css">
+
+</body>
+</html>
